@@ -1,4 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 
-// Print
 int main() {
+  printf("Hello, World!);
+retrun 0;
+}
