@@ -25,7 +25,10 @@ printf("%d°C\n", celsuis);
 int mins=349;
 int hours=mins/60;
 extramins=mins%60;
+
 printf("\n%d minutes is equal to", mins);
 printf("%d hours and", hours);
 printf("%s minutes.\n", extramins);
+
+return 0
 }
