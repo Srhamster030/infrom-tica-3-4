@@ -11,4 +11,7 @@ int main(){
         printf("%d in NOT a leap year.\n",year);
     }
     }
+    if(year % 4 ==0){
+        printf("is a")
+    } else if (year %100)
 }
