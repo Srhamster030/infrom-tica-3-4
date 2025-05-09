@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int base, exp;
     long double result = 1.0;
