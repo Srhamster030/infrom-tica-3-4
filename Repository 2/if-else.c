@@ -53,4 +53,4 @@ printf("Enter another number to make a multiplication: ");
 scanf("%d", &number2);
 int multiplication = number1*number2;
 printf("The result is: %d \n", multiplication);
-return 0;
+return 0;}
