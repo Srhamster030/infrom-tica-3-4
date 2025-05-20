@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    int number;
+    int count = 0;
+    int n;
 
-    printf("enter a positive number: ");
-    scanf("%d", &number);
+    printf("Enter a positive number: ");
+    scanf("%d" , &n);
 
-    int num = 1;
-    int answer = 0;
+    do{
+        n = n / 10;
+        // n /= 10
 
-    if(number > 0){
-        while(number/num >= 1){
-            num = num*10;
-            ++answer;
-        }
-        printf("%d\n", answer);
-    } else {
-        printf("NOT A POSITIVE NUMBER >:(\n");
-    }
-    return 0;
+        ++count;
+    } while(n !=0);
+    printf("Number of digits: %d\n", count);
+
 }
+    
